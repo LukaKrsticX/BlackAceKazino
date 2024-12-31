@@ -1,0 +1,53 @@
+.landingChoice {
+  min-height: 100vh; 
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Adjust the amount of translation as desired */
+}
+
+.card-link {
+  text-decoration: none; /* Remove default link styling */
+}
+
+#sports{
+  background: url('../img/sportsPic.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px ;
+  height: 450px;
+}
+
+#rulet{
+  background: url('../img/rulet.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px ;
+  height: 450px;
+}
+
+#blackJack{
+  background: url('../img/blackJack1.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px ;
+  height: 450px;
+}
+#Naslov{
+  color: gold;
+  text-shadow: 
+  -2px -2px 0 #000,  
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000; 
+}
