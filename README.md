@@ -64,7 +64,7 @@ You should be able to interact with the application.
 ---
 
 Usage:
-Upon landing first click on "Registruj se" button where you can register ny providing:
+Upon landing first click on "Registruj se" button where you can register by providing:
 name(example)
 email(example@gmail.com)
 password(Capital letter, no blanco, min 8 characters)
@@ -75,6 +75,7 @@ Upon logging in, your nav-bar will be loaded with odigrano(betting history) and 
 Now you can login as admin with these credentials:
 Username: admin
 Password: Sifra123
+
 Once logged in choose AdminDashboard in a nav-bar. Then choose users. Now you should have a loaded page where you can add, eddit and remove users and moderators, but you can not see other admin accounts. There you can give your new account some balance so you can bet with it. Also in admin dashboard, you have option for utakmice(matches). If you select that option a page will open where you can see and edit all ongoing matches from DB(DataBase). To edit it, simply click on edit and scroll down where you will see and be able to update all info about that match.
 
 Now you can log back on your account, select the sport again and when matches pop up you can click on izbor where you will have these options:
