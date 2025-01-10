@@ -43,7 +43,7 @@ bash
 npm install
 
 4. Set Up Database
-   Ensure you have a SQL database set up for the project. Create a database and import the necessary schema from the project files (e.g., SQL scripts for table creation). Adjust the database connection string in the backend code if needed.
+   Ensure you have a SQL database set up for the project. Create a database and import the necessary schema from the project files (e.g., SQL script for table creation located in SQL script folder). Adjust the database connection string in the backend code if needed.
 
 5. Configure Database in code
    Change origin in server.js file, line 16.
